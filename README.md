@@ -1,2 +1,2 @@
-Please visit [https://rookiejunchen.github.io/Inter-SubNet_demo/](https://rookiejunchen.github.io/Inter-SubNet_demo/)
+Please visit [https://zwlinzw.github.io/Multi-view_MIDIVAE_demo/](https://zwlinzw.github.io/Multi-view_MIDIVAE_demo/)
 
