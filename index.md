@@ -12,7 +12,7 @@ The Multi-view MidiVAE utilizes the two-dimensional (2-D) representation, Octupl
         src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
 </script>
     <img style="zoom: 100%;" 
-    src="./data/fig/total_graph_.jpg">
+    src="./data/fig/total_graph.jpg">
     <br>
     <div class="caption" style="max-width: 1000px;"> 
     Fig.1: The overall diagram of the proposed Multi-view MidiVAE. The model mainly contains Track- and Bar-view encoders, a multi-view information fusion (MIF), Track- and Bar-view decoders as well as an adaptive feature fusion (AFF).
