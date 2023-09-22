@@ -15,7 +15,7 @@ The Multi-view MidiVAE utilizes the two-dimensional (2-D) representation, Octupl
     src="./data/fig/total_graph_.jpg">
     <br>
     <div class="caption" style="max-width: 1000px;"> 
-    Fig.1: The general schematic of the proposed Inter-SubNet, where "SIL block 1" and "SIL block 2" refer to the first and second SubInter-LSTM block respectively. The "G-norm" denotes group normalization. The Inter-SubNet \(G_{is}\) mainly consists of two stacked SIL blocks and one fully-connected layer. Taking the subband units \(\{\mathbf{b}_i\}_{i=1}^F\) as input, the model \(G_{is}\) generates the final output cIRM \(\mathbf{M}^{r}\) and \(\mathbf{M}^{i}\).
+    Fig.1: The overall diagram of the proposed Multi-view MidiVAE. The model mainly contains Track- and Bar-view encoders, a multi-view information fusion (MIF), Track- and Bar-view decoders as well as an adaptive feature fusion (AFF).
     </div>
 </center>
 
