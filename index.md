@@ -29,45 +29,59 @@ The Multi-view MidiVAE utilizes the two-dimensional (2-D) representation, Octupl
 |                          **MusicVAE with REMI+**                          |                                                              |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | **sample1** <br><audio controls><source src="./data/samples/MusicVAE_REMIplus/1.wav" type="audio/wav">Your browser does not support the audio element.</audio> | **sample2** <br>  <audio controls><source src="./data/samples/MusicVAE_REMIplus/2.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
-| <img src="./data/samples/B-view/1.jpg" alt="sample1" width="100%" /> | <img src="./data/samples/B-view/2.jpg" alt="sample2" width="100%" /> |
+| <img src="./data/samples/MusicVAE_REMIplus/1.jpg" alt="sample1" width="100%" /> | <img src="./data/samples/MusicVAE_REMIplus/2.jpg" alt="sample2" width="100%" /> |
+| **sample3**<br>  <audio controls><source src="./data/samples/MusicVAE_REMIplus/3.wav" type="audio/wav">Your browser does not support the audio element.</audio> | **sample4** <br> <audio controls><source src="./data/samples/MusicVAE_REMIplus/4.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
+| <img src="./data/samples/MusicVAE_REMIplus/3.jpg" alt="proposed" width="100%" /> | <img src="./data/samples/MusicVAE_REMIplus/4.jpg" alt="clean" width="100%" /> |
+| **sample5**<br>  <audio controls><source src="./data/samples/MusicVAE_REMIplus/5.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
+| <img src="./data/samples/MusicVAE_REMIplus/5.jpg" alt="proposed" width="100%" /> |
+
+
+
+<h3 id = "3"> MusicVAE with OctupleMIDI</h3>
+
+|                          **MusicVAE with OctupleMIDI**                          |                                                              |
+| :----------------------------------------------------------: | :----------------------------------------------------------: |
+| **sample1** <br><audio controls><source src="./data/samples/MusicVAE_OctupleMIDI/1.wav" type="audio/wav">Your browser does not support the audio element.</audio> | **sample2** <br>  <audio controls><source src="./data/samples/MusicVAE_OctupleMIDI/2.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
+| <img src="./data/samples/MusicVAE_OctupleMIDI/1.jpg" alt="noisy" width="100%" /> | <img src="./data/samples/MusicVAE_OctupleMIDI/2.jpg" alt="baseline" width="100%" /> |
+| **sample3**<br>  <audio controls><source src="./data/samples/MusicVAE_OctupleMIDI/3.wav" type="audio/wav">Your browser does not support the audio element.</audio> | **sample4** <br> <audio controls><source src="./data/samples/MusicVAE_OctupleMIDI/4.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
+| <img src="./data/samples/MusicVAE_OctupleMIDI/3.jpg" alt="proposed" width="100%" /> | <img src="./data/samples/MusicVAE_OctupleMIDI/4.jpg" alt="clean" width="100%" /> |
+| **sample5**<br>  <audio controls><source src="./data/samples/MusicVAE_OctupleMIDI/5.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
+| <img src="./data/samples/MusicVAE_OctupleMIDI/5.jpg" alt="proposed" width="100%" /> |
+
+<h3 id = "3"> Bar-view MidiVAE</h3>
+
+|                          **Bar-view MidiVAE**                          |                                                              |
+| :----------------------------------------------------------: | :----------------------------------------------------------: |
+| **sample1** <br><audio controls><source src="./data/samples/B-view/1.wav" type="audio/wav">Your browser does not support the audio element.</audio> | **sample2** <br>  <audio controls><source src="./data/samples/B-view/2.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
+| <img src="./data/samples/B-view/1.jpg" alt="noisy" width="100%" /> | <img src="./data/samples/B-view/2.jpg" alt="baseline" width="100%" /> |
 | **sample3**<br>  <audio controls><source src="./data/samples/B-view/3.wav" type="audio/wav">Your browser does not support the audio element.</audio> | **sample4** <br> <audio controls><source src="./data/samples/B-view/4.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
 | <img src="./data/samples/B-view/3.jpg" alt="proposed" width="100%" /> | <img src="./data/samples/B-view/4.jpg" alt="clean" width="100%" /> |
 | **sample5**<br>  <audio controls><source src="./data/samples/B-view/5.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
 | <img src="./data/samples/B-view/5.jpg" alt="proposed" width="100%" /> |
 
 
+<h3 id = "3"> Track-view MidiVAE</h3>
 
-<h3 id = "3"> case 2</h3>
-
-|                          **case 2**                          |                                                              |
+|                          **Track-view MidiVAE**                          |                                                              |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| **Noisy** <br><audio controls><source src="./data/no_reverb/example110/noisy.wav" type="audio/wav">Your browser does not support the audio element.</audio> | **Subband model** <br>  <audio controls><source src="./data/no_reverb/example110/Subband_model.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
-| <img src="./data/no_reverb/example110/noisy.jpg" alt="noisy" width="100%" /> | <img src="./data/no_reverb/example110/Subband_model.jpg" alt="baseline" width="100%" /> |
-| **Inter-SubNet**<br>  <audio controls><source src="./data/no_reverb/example110/Inter_SubNet.wav" type="audio/wav">Your browser does not support the audio element.</audio> | **Clean** <br> <audio controls><source src="./data/no_reverb/example110/clean.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
-| <img src="./data/no_reverb/example110/Inter_SubNet.jpg" alt="proposed" width="100%" /> | <img src="./data/no_reverb/example110/clean.jpg" alt="clean" width="100%" /> |
+| **sample1** <br><audio controls><source src="./data/samples/T-view/1.wav" type="audio/wav">Your browser does not support the audio element.</audio> | **sample2** <br>  <audio controls><source src="./data/samples/T-view/2.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
+| <img src="./data/samples/T-view/1.jpg" alt="noisy" width="100%" /> | <img src="./data/samples/T-view/2.jpg" alt="baseline" width="100%" /> |
+| **sample3**<br>  <audio controls><source src="./data/samples/T-view/3.wav" type="audio/wav">Your browser does not support the audio element.</audio> | **sample4** <br> <audio controls><source src="./data/samples/T-view/4.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
+| <img src="./data/samples/T-view/3.jpg" alt="proposed" width="100%" /> | <img src="./data/samples/T-view/4.jpg" alt="clean" width="100%" /> |
+| **sample5**<br>  <audio controls><source src="./data/samples/T-view/5.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
+| <img src="./data/samples/T-view/5.jpg" alt="proposed" width="100%" /> |
 
 
+<h3 id = "3"> Multi-view MidiVAE</h3>
 
-<h3 id = "3"> case 3</h3>
-
-|                          **case 3**                          |                                                              |
+|                          **Multi-view MidiVAE**                          |                                                              |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| **Noisy**<br/>  <audio controls><source src="./data/no_reverb/example38/noisy.wav" type="audio/wav">Your browser does not support the audio element.</audio> | **Subband model**<br/>   <audio controls><source src="./data/no_reverb/example38/Subband_model.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
-| <img src="./data/no_reverb/example38/noisy.jpg" alt="noisy" width="100%" /> | <img src="./data/no_reverb/example38/Subband_model.jpg" alt="baseline" width="100%"/> |
-| **Inter-SubNet**  <br/><audio controls><source src="./data/no_reverb/example38/Inter_SubNet.wav" type="audio/wav">Your browser does not support the audio element.</audio> | **Clean**  <br/><audio controls><source src="./data/no_reverb/example38/clean.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
-| <img src="./data/no_reverb/example38/Inter_SubNet.jpg" alt="proposed" width="100%" /> | <img src="./data/no_reverb/example38/clean.jpg" alt="clean" width="100%" /> |
-
-
-
-<h3 id = "3"> case 4</h3>
-
-|                          **case 4**                          |                                                              |
-| :----------------------------------------------------------: | :----------------------------------------------------------: |
-| **Noisy**  <br/><audio controls><source src="./data/no_reverb/example213/noisy.wav" type="audio/wav">Your browser does not support the audio element.</audio> | **Subband model**  <br/><audio controls><source src="./data/no_reverb/example213/Subband_model.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
-| <img src="./data/no_reverb/example213/noisy.jpg" alt="noisy" width="100%" /> | <img src="./data/no_reverb/example213/Subband_model.jpg" alt="baseline" width="100%" /> |
-| **Inter-SubNet**  <br/><audio controls><source src="./data/no_reverb/example213/Inter_SubNet.wav" type="audio/wav">Your browser does not support the audio element.</audio> | **Clean**  <br/><audio controls><source src="./data/no_reverb/example213/clean.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
-| <img src="./data/no_reverb/example213/Inter_SubNet.jpg" alt="proposed" width="100%" /> | <img src="./data/no_reverb/example213/clean.jpg" alt="clean" width="100%" /> |
-
+| **sample1** <br><audio controls><source src="./data/samples/Multi-View/1.wav" type="audio/wav">Your browser does not support the audio element.</audio> | **sample2** <br>  <audio controls><source src="./data/samples/Multi-View/2.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
+| <img src="./data/samples/Multi-View/1.jpg" alt="noisy" width="100%" /> | <img src="./data/samples/Multi-View/2.jpg" alt="baseline" width="100%" /> |
+| **sample3**<br>  <audio controls><source src="./data/samples/Multi-View/3.wav" type="audio/wav">Your browser does not support the audio element.</audio> | **sample4** <br> <audio controls><source src="./data/samples/Multi-View/4.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
+| <img src="./data/samples/Multi-View/3.jpg" alt="proposed" width="100%" /> | <img src="./data/samples/Multi-View/4.jpg" alt="clean" width="100%" /> |
+| **sample5**<br>  <audio controls><source src="./data/samples/Multi-View/5.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
+| <img src="./data/samples/Multi-View/5.jpg" alt="proposed" width="100%" /> |
 
 
 
