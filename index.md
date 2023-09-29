@@ -22,13 +22,13 @@ The Multi-view MidiVAE utilizes the two-dimensional (2-D) representation, Octupl
 
 
 
-## Without Reverberation
+## Sample
 
-<h3 id = "3"> case 1</h3>
+<h3 id = "3"> MusicVAE with REMI+</h3>
 
-|                          **case 1**                          |                                                              |
+|                          **MusicVAE with REMI+**                          |                                                              |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| **Noisy** <br><audio controls><source src="./data/no_reverb/example245/noisy.wav" type="audio/wav">Your browser does not support the audio element.</audio> | **Subband model** <br>  <audio controls><source src="./data/no_reverb/example245/Subband_model.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
+| **Noisy** <br><audio controls><source src="./data/samples/MusicVAE_REMIplus/1.wav" type="audio/wav">Your browser does not support the audio element.</audio> | **Subband model** <br>  <audio controls><source src="./data/no_reverb/example245/Subband_model.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
 | <img src="./data/no_reverb/example245/noisy.jpg" alt="noisy" width="100%" /> | <img src="./data/no_reverb/example245/Subband_model.jpg" alt="baseline" width="100%" /> |
 | **Inter-SubNet**<br>  <audio controls><source src="./data/no_reverb/example245/Inter_SubNet.wav" type="audio/wav">Your browser does not support the audio element.</audio> | **Clean** <br> <audio controls><source src="./data/no_reverb/example245/clean.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
 | <img src="./data/no_reverb/example245/Inter_SubNet.jpg" alt="proposed" width="100%" /> | <img src="./data/no_reverb/example245/clean.jpg" alt="clean" width="100%" /> |
