@@ -22,7 +22,7 @@ The Multi-view MidiVAE utilizes the two-dimensional (2-D) representation, Octupl
 
 
 
-## Latent Space Sample Demos
+## Latent Space Sampling Demos
 
 <h3 id = "3"> MusicVAE with REMI+</h3>
 
