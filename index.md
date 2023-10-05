@@ -34,7 +34,7 @@ The Multi-view MidiVAE utilizes the two-dimensional (2-D) representation, Octupl
 | <img src="./data/samples/MusicVAE_REMIplus/3.jpg" alt="proposed" width="100%" /> | <img src="./data/samples/MusicVAE_REMIplus/4.jpg" alt="clean" width="100%" /> |
 
 
-<h3 id = "3"> MusicVA with OctupleMIDI</h3>
+<h3 id = "3"> MusicVAE with OctupleMIDI</h3>
 
 |                          **MusicVAE with OctupleMIDI**                          |                                                              |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
