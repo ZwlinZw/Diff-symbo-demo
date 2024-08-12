@@ -1,3 +1,2 @@
-Please visit [https://zwlinzw.github.io/Multi-view_MIDIVAE_demo/](https://zwlinzw.github.io/Multi-view_MIDIVAE_demo/)
-test
+Please visit [https://zwlinzw.github.io/Diff-symbo_demo/](https://zwlinzw.github.io/Diff-symbo_demo/)
 
